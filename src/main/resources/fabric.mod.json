@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "gabtranscription",
+  "version": "${version}",
+  "name": "GABtranscription",
+  "authors": [
+    "GAB_DAB2025"
+  ],
+  "license": "MIT",
+  "icon": "assets/gabtranscription/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "gab.transcription.GabTranscriptionClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
